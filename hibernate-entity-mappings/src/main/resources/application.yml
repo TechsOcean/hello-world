@@ -1,0 +1,5 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8787
+  application:
+    name: hibernate-entity-mappings
